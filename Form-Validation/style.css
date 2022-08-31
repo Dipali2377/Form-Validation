@@ -1,0 +1,19 @@
+body {
+  background-color: lightskyblue;
+}
+.tbldata {
+  margin-top: 250px;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  border: 2px solid black;
+  padding: 15px;
+  background-color: white;
+}
+.submit-btn {
+  color: white;
+  background-color: #0a0a23;
+
+  margin-top: 10px;
+  border: none;
+  border-radius: 3px;
+}

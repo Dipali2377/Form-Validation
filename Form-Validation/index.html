@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>From_validation</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="document.js"></script>
+  </head>
+  <body>
+    <form
+      name="empform"
+      action="Dashboard.html"
+      method="get"
+      onsubmit="return validate()"
+    >
+      <center>
+        <div class="content">
+          <table class="tbldata">
+            <tr>
+              <th>Emp_id:</th>
+              <th><input type="text" id="eid" /></th>
+              <th><span id="sid" style="color: red"></span></th>
+            </tr>
+
+            <tr>
+              <th>Name:</th>
+              <th><input type="text" id="ename" /></th>
+              <th><span id="nid" style="color: red"></span></th>
+            </tr>
+
+            <tr>
+              <th>
+                <input
+                  type="submit"
+                  Submit="validate()"
+                  class="submit-btn"
+                  style="padding: 7px"
+                />
+              </th>
+            </tr>
+          </table>
+        </div>
+      </center>
+    </form>
+  </body>
+</html>
